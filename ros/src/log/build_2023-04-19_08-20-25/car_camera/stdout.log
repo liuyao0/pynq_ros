@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/car_camera/car_camera.egg-info
+writing ../build/car_camera/car_camera.egg-info/PKG-INFO
+writing dependency_links to ../build/car_camera/car_camera.egg-info/dependency_links.txt
+writing entry points to ../build/car_camera/car_camera.egg-info/entry_points.txt
+writing requirements to ../build/car_camera/car_camera.egg-info/requires.txt
+writing top-level names to ../build/car_camera/car_camera.egg-info/top_level.txt
+writing manifest file '../build/car_camera/car_camera.egg-info/SOURCES.txt'
+reading manifest file '../build/car_camera/car_camera.egg-info/SOURCES.txt'
+writing manifest file '../build/car_camera/car_camera.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros/src/build/car_camera/build
+creating /home/ubuntu/ros/src/build/car_camera/build/lib
+creating /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera
+copying car_camera/car_camera_sub.py -> /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera
+copying car_camera/car_camera.py -> /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera
+copying car_camera/__init__.py -> /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera
+running install
+running install_lib
+creating /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera
+copying /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera/car_camera_sub.py -> /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera
+copying /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera/car_camera.py -> /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera
+copying /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera/__init__.py -> /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera
+byte-compiling /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera/car_camera_sub.py to car_camera_sub.cpython-310.pyc
+byte-compiling /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera/car_camera.py to car_camera.cpython-310.pyc
+byte-compiling /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ubuntu/ros/src/install/car_camera/share/ament_index
+creating /home/ubuntu/ros/src/install/car_camera/share/ament_index/resource_index
+creating /home/ubuntu/ros/src/install/car_camera/share/ament_index/resource_index/packages
+copying resource/car_camera -> /home/ubuntu/ros/src/install/car_camera/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros/src/install/car_camera/share/car_camera
+running install_egg_info
+Copying ../build/car_camera/car_camera.egg-info to /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera-0.0.0-py3.10.egg-info
+running install_scripts
+Installing car_camera script to /home/ubuntu/ros/src/install/car_camera/lib/car_camera
+Installing car_camera_sub script to /home/ubuntu/ros/src/install/car_camera/lib/car_camera
+writing list of installed files to '/home/ubuntu/ros/src/build/car_camera/install.log'

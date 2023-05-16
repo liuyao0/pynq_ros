@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.002162] (car_camera) JobQueued: {'identifier': 'car_camera', 'dependencies': OrderedDict()}
+[0.003101] (yolo) JobQueued: {'identifier': 'yolo', 'dependencies': OrderedDict()}
+[0.006870] (car_camera) JobStarted: {'identifier': 'car_camera'}
+[0.098929] (-) TimerEvent: {}
+[0.119833] (yolo) JobStarted: {'identifier': 'yolo'}
+[0.200594] (-) TimerEvent: {}
+[0.301680] (-) TimerEvent: {}
+[0.402687] (-) TimerEvent: {}
+[0.503680] (-) TimerEvent: {}
+[0.604601] (-) TimerEvent: {}
+[0.705523] (-) TimerEvent: {}
+[0.806462] (-) TimerEvent: {}
+[0.907419] (-) TimerEvent: {}
+[1.008368] (-) TimerEvent: {}
+[1.109336] (-) TimerEvent: {}
+[1.210257] (-) TimerEvent: {}
+[1.311225] (-) TimerEvent: {}
+[1.412123] (-) TimerEvent: {}
+[1.513026] (-) TimerEvent: {}
+[1.613953] (-) TimerEvent: {}
+[1.715004] (-) TimerEvent: {}
+[1.815929] (-) TimerEvent: {}
+[1.916849] (-) TimerEvent: {}
+[2.017822] (-) TimerEvent: {}
+[2.118971] (-) TimerEvent: {}
+[2.220079] (-) TimerEvent: {}
+[2.321120] (-) TimerEvent: {}
+[2.422405] (-) TimerEvent: {}
+[2.524019] (-) TimerEvent: {}
+[2.625794] (-) TimerEvent: {}
+[2.727124] (-) TimerEvent: {}
+[2.828431] (-) TimerEvent: {}
+[2.930124] (-) TimerEvent: {}
+[3.031362] (-) TimerEvent: {}
+[3.132545] (-) TimerEvent: {}
+[3.233724] (-) TimerEvent: {}
+[3.334862] (-) TimerEvent: {}
+[3.436040] (-) TimerEvent: {}
+[3.537172] (-) TimerEvent: {}
+[3.638313] (-) TimerEvent: {}
+[3.739528] (-) TimerEvent: {}
+[3.840700] (-) TimerEvent: {}
+[3.941976] (-) TimerEvent: {}
+[4.043157] (-) TimerEvent: {}
+[4.144413] (-) TimerEvent: {}
+[4.248839] (-) TimerEvent: {}
+[4.353965] (-) TimerEvent: {}
+[4.455049] (-) TimerEvent: {}
+[4.556329] (-) TimerEvent: {}
+[4.657324] (-) TimerEvent: {}
+[4.758546] (-) TimerEvent: {}
+[4.859636] (-) TimerEvent: {}
+[4.961241] (-) TimerEvent: {}
+[5.062615] (-) TimerEvent: {}
+[5.163877] (-) TimerEvent: {}
+[5.265143] (-) TimerEvent: {}
+[5.366394] (-) TimerEvent: {}
+[5.467787] (-) TimerEvent: {}
+[5.569082] (-) TimerEvent: {}
+[5.670317] (-) TimerEvent: {}
+[5.771633] (-) TimerEvent: {}
+[5.872941] (-) TimerEvent: {}
+[5.974186] (-) TimerEvent: {}
+[6.075646] (-) TimerEvent: {}
+[6.176835] (-) TimerEvent: {}
+[6.278063] (-) TimerEvent: {}
+[6.379380] (-) TimerEvent: {}
+[6.480609] (-) TimerEvent: {}
+[6.582387] (-) TimerEvent: {}
+[6.683788] (-) TimerEvent: {}
+[6.784851] (-) TimerEvent: {}
+[6.885796] (-) TimerEvent: {}
+[6.987604] (-) TimerEvent: {}
+[7.088821] (-) TimerEvent: {}
+[7.190132] (-) TimerEvent: {}
+[7.291593] (-) TimerEvent: {}
+[7.393291] (-) TimerEvent: {}
+[7.494602] (-) TimerEvent: {}
+[7.596043] (-) TimerEvent: {}
+[7.697426] (-) TimerEvent: {}
+[7.798751] (-) TimerEvent: {}
+[7.900118] (-) TimerEvent: {}
+[8.001350] (-) TimerEvent: {}
+[8.102539] (-) TimerEvent: {}
+[8.203894] (-) TimerEvent: {}
+[8.305226] (-) TimerEvent: {}
+[8.406304] (-) TimerEvent: {}
+[8.507365] (-) TimerEvent: {}
+[8.608306] (-) TimerEvent: {}
+[8.709376] (-) TimerEvent: {}
+[8.810434] (-) TimerEvent: {}
+[8.911778] (-) TimerEvent: {}
+[9.012843] (-) TimerEvent: {}
+[9.113949] (-) TimerEvent: {}
+[9.215024] (-) TimerEvent: {}
+[9.316140] (-) TimerEvent: {}
+[9.417182] (-) TimerEvent: {}
+[9.518238] (-) TimerEvent: {}
+[9.619259] (-) TimerEvent: {}
+[9.720341] (-) TimerEvent: {}
+[9.821329] (-) TimerEvent: {}
+[9.922451] (-) TimerEvent: {}
+[10.023689] (-) TimerEvent: {}
+[10.124710] (-) TimerEvent: {}
+[10.225651] (-) TimerEvent: {}
+[10.326706] (-) TimerEvent: {}
+[10.428051] (-) TimerEvent: {}
+[10.529543] (-) TimerEvent: {}
+[10.631392] (-) TimerEvent: {}
+[10.732890] (-) TimerEvent: {}
+[10.834519] (-) TimerEvent: {}
+[10.936280] (-) TimerEvent: {}
+[11.038047] (-) TimerEvent: {}
+[11.139721] (-) TimerEvent: {}
+[11.241355] (-) TimerEvent: {}
+[11.343035] (-) TimerEvent: {}
+[11.417044] (car_camera) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/car_camera', 'build', '--build-base', '/home/ubuntu/ros/src/build/car_camera/build', 'install', '--record', '/home/ubuntu/ros/src/build/car_camera/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros/src/car_camera', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/ubuntu/ros', 'ROS_PYTHON_VERSION': '3', 'PS1': '(pynq-venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'XILINX_XRT': '/usr', 'PYNQ_JUPYTER_NOTEBOOKS': '/home/root/jupyter_notebooks', 'COLORTERM': 'truecolor', 'BOARD': 'KV260', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/share/pynq-venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/share/pynq-venv/bin/microblazeel-xilinx-elf/bin/', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(pynq-venv)', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros/install/yolo:/home/ubuntu/ros/install/car_camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/usr/local/share/pynq-venv', 'PWD': '/home/ubuntu/ros/src/build/car_camera', 'PYTHONPATH': '/home/ubuntu/ros/src/build/car_camera/prefix_override:/home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages:/home/ubuntu/ros/install/yolo/lib/python3.10/site-packages:/home/ubuntu/ros/install/car_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:', 'COLCON': '1'}, 'shell': False}
+[11.435409] (yolo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/yolo', 'build', '--build-base', '/home/ubuntu/ros/src/build/yolo/build', 'install', '--record', '/home/ubuntu/ros/src/build/yolo/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros/src/yolo', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/ubuntu/ros', 'ROS_PYTHON_VERSION': '3', 'PS1': '(pynq-venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'XILINX_XRT': '/usr', 'PYNQ_JUPYTER_NOTEBOOKS': '/home/root/jupyter_notebooks', 'COLORTERM': 'truecolor', 'BOARD': 'KV260', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/share/pynq-venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/share/pynq-venv/bin/microblazeel-xilinx-elf/bin/', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(pynq-venv)', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros/install/yolo:/home/ubuntu/ros/install/car_camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/usr/local/share/pynq-venv', 'PWD': '/home/ubuntu/ros/src/build/yolo', 'PYTHONPATH': '/home/ubuntu/ros/src/build/yolo/prefix_override:/home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages:/home/ubuntu/ros/install/yolo/lib/python3.10/site-packages:/home/ubuntu/ros/install/car_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:', 'COLCON': '1'}, 'shell': False}
+[11.451160] (-) TimerEvent: {}
+[11.552366] (-) TimerEvent: {}
+[11.653348] (-) TimerEvent: {}
+[11.754324] (-) TimerEvent: {}
+[11.855342] (-) TimerEvent: {}
+[11.956311] (-) TimerEvent: {}
+[12.057301] (-) TimerEvent: {}
+[12.158273] (-) TimerEvent: {}
+[12.259237] (-) TimerEvent: {}
+[12.360473] (-) TimerEvent: {}
+[12.461665] (-) TimerEvent: {}
+[12.562717] (-) TimerEvent: {}
+[12.674362] (-) TimerEvent: {}
+[12.775360] (-) TimerEvent: {}
+[12.876388] (-) TimerEvent: {}
+[12.977389] (-) TimerEvent: {}
+[13.078372] (-) TimerEvent: {}
+[13.179388] (-) TimerEvent: {}
+[13.280376] (-) TimerEvent: {}
+[13.299049] (car_camera) StdoutLine: {'line': b'running egg_info\n'}
+[13.303850] (car_camera) StdoutLine: {'line': b'creating ../build/car_camera/car_camera.egg-info\n'}
+[13.305171] (car_camera) StdoutLine: {'line': b'writing ../build/car_camera/car_camera.egg-info/PKG-INFO\n'}
+[13.306426] (car_camera) StdoutLine: {'line': b'writing dependency_links to ../build/car_camera/car_camera.egg-info/dependency_links.txt\n'}
+[13.307982] (car_camera) StdoutLine: {'line': b'writing entry points to ../build/car_camera/car_camera.egg-info/entry_points.txt\n'}
+[13.309275] (car_camera) StdoutLine: {'line': b'writing requirements to ../build/car_camera/car_camera.egg-info/requires.txt\n'}
+[13.310467] (car_camera) StdoutLine: {'line': b'writing top-level names to ../build/car_camera/car_camera.egg-info/top_level.txt\n'}
+[13.311497] (car_camera) StdoutLine: {'line': b"writing manifest file '../build/car_camera/car_camera.egg-info/SOURCES.txt'\n"}
+[13.317344] (yolo) StdoutLine: {'line': b'running egg_info\n'}
+[13.321399] (yolo) StdoutLine: {'line': b'creating ../build/yolo/yolo.egg-info\n'}
+[13.322890] (yolo) StdoutLine: {'line': b'writing ../build/yolo/yolo.egg-info/PKG-INFO\n'}
+[13.324373] (car_camera) StdoutLine: {'line': b"reading manifest file '../build/car_camera/car_camera.egg-info/SOURCES.txt'\n"}
+[13.326108] (yolo) StdoutLine: {'line': b'writing dependency_links to ../build/yolo/yolo.egg-info/dependency_links.txt\n'}
+[13.327307] (yolo) StdoutLine: {'line': b'writing entry points to ../build/yolo/yolo.egg-info/entry_points.txt\n'}
+[13.328559] (yolo) StdoutLine: {'line': b'writing requirements to ../build/yolo/yolo.egg-info/requires.txt\n'}
+[13.330182] (yolo) StdoutLine: {'line': b'writing top-level names to ../build/yolo/yolo.egg-info/top_level.txt\n'}
+[13.332214] (yolo) StdoutLine: {'line': b"writing manifest file '../build/yolo/yolo.egg-info/SOURCES.txt'\n"}
+[13.333834] (car_camera) StdoutLine: {'line': b"writing manifest file '../build/car_camera/car_camera.egg-info/SOURCES.txt'\n"}
+[13.335134] (car_camera) StdoutLine: {'line': b'running build\n'}
+[13.336373] (car_camera) StdoutLine: {'line': b'running build_py\n'}
+[13.337179] (car_camera) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/build/car_camera/build\n'}
+[13.338193] (car_camera) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/build/car_camera/build/lib\n'}
+[13.339368] (car_camera) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera\n'}
+[13.340202] (car_camera) StdoutLine: {'line': b'copying car_camera/car_camera_sub.py -> /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera\n'}
+[13.341369] (car_camera) StdoutLine: {'line': b'copying car_camera/car_camera.py -> /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera\n'}
+[13.342544] (car_camera) StdoutLine: {'line': b'copying car_camera/__init__.py -> /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera\n'}
+[13.343760] (car_camera) StdoutLine: {'line': b'running install\n'}
+[13.344693] (car_camera) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[13.346193] (car_camera) StderrLine: {'line': b'  warnings.warn(\n'}
+[13.348368] (car_camera) StdoutLine: {'line': b'running install_lib\n'}
+[13.350355] (yolo) StdoutLine: {'line': b"reading manifest file '../build/yolo/yolo.egg-info/SOURCES.txt'\n"}
+[13.351991] (car_camera) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera\n'}
+[13.353329] (car_camera) StdoutLine: {'line': b'copying /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera/car_camera_sub.py -> /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera\n'}
+[13.355273] (car_camera) StdoutLine: {'line': b'copying /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera/car_camera.py -> /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera\n'}
+[13.356415] (yolo) StdoutLine: {'line': b"writing manifest file '../build/yolo/yolo.egg-info/SOURCES.txt'\n"}
+[13.357528] (car_camera) StdoutLine: {'line': b'copying /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera/__init__.py -> /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera\n'}
+[13.359358] (yolo) StdoutLine: {'line': b'running build\n'}
+[13.360321] (yolo) StdoutLine: {'line': b'running build_py\n'}
+[13.361257] (yolo) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/build/yolo/build\n'}
+[13.362075] (yolo) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/build/yolo/build/lib\n'}
+[13.362931] (yolo) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/build/yolo/build/lib/yolo\n'}
+[13.363970] (yolo) StdoutLine: {'line': b'copying yolo/yolo_evaluate.py -> /home/ubuntu/ros/src/build/yolo/build/lib/yolo\n'}
+[13.364927] (car_camera) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera/car_camera_sub.py to car_camera_sub.cpython-310.pyc\n'}
+[13.366472] (yolo) StdoutLine: {'line': b'copying yolo/utils.py -> /home/ubuntu/ros/src/build/yolo/build/lib/yolo\n'}
+[13.367829] (yolo) StdoutLine: {'line': b'copying yolo/__init__.py -> /home/ubuntu/ros/src/build/yolo/build/lib/yolo\n'}
+[13.369136] (car_camera) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera/car_camera.py to car_camera.cpython-310.pyc\n'}
+[13.370016] (yolo) StdoutLine: {'line': b'copying yolo/yolo.py -> /home/ubuntu/ros/src/build/yolo/build/lib/yolo\n'}
+[13.370926] (car_camera) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera/__init__.py to __init__.cpython-310.pyc\n'}
+[13.371841] (yolo) StdoutLine: {'line': b'running install\n'}
+[13.372963] (yolo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[13.374010] (yolo) StderrLine: {'line': b'  warnings.warn(\n'}
+[13.375135] (car_camera) StdoutLine: {'line': b'running install_data\n'}
+[13.376257] (yolo) StdoutLine: {'line': b'running install_lib\n'}
+[13.377372] (car_camera) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/install/car_camera/share/ament_index\n'}
+[13.378520] (yolo) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo\n'}
+[13.382126] (-) TimerEvent: {}
+[13.383877] (yolo) StdoutLine: {'line': b'copying /home/ubuntu/ros/src/build/yolo/build/lib/yolo/yolo_evaluate.py -> /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo\n'}
+[13.385270] (car_camera) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/install/car_camera/share/ament_index/resource_index\n'}
+[13.386296] (car_camera) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/install/car_camera/share/ament_index/resource_index/packages\n'}
+[13.387343] (car_camera) StdoutLine: {'line': b'copying resource/car_camera -> /home/ubuntu/ros/src/install/car_camera/share/ament_index/resource_index/packages\n'}
+[13.388251] (yolo) StdoutLine: {'line': b'copying /home/ubuntu/ros/src/build/yolo/build/lib/yolo/utils.py -> /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo\n'}
+[13.389186] (yolo) StdoutLine: {'line': b'copying /home/ubuntu/ros/src/build/yolo/build/lib/yolo/__init__.py -> /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo\n'}
+[13.390270] (car_camera) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros/src/install/car_camera/share/car_camera\n'}
+[13.391333] (yolo) StdoutLine: {'line': b'copying /home/ubuntu/ros/src/build/yolo/build/lib/yolo/yolo.py -> /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo\n'}
+[13.392441] (car_camera) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.393730] (yolo) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo/yolo_evaluate.py to yolo_evaluate.cpython-310.pyc\n'}
+[13.394858] (car_camera) StdoutLine: {'line': b'Copying ../build/car_camera/car_camera.egg-info to /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera-0.0.0-py3.10.egg-info\n'}
+[13.395899] (yolo) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo/utils.py to utils.cpython-310.pyc\n'}
+[13.396853] (car_camera) StdoutLine: {'line': b'running install_scripts\n'}
+[13.397714] (yolo) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo/__init__.py to __init__.cpython-310.pyc\n'}
+[13.398809] (yolo) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo/yolo.py to yolo.cpython-310.pyc\n'}
+[13.399766] (yolo) StdoutLine: {'line': b'running install_data\n'}
+[13.402351] (yolo) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/install/yolo/share/ament_index\n'}
+[13.403785] (yolo) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/install/yolo/share/ament_index/resource_index\n'}
+[13.404625] (yolo) StdoutLine: {'line': b'creating /home/ubuntu/ros/src/install/yolo/share/ament_index/resource_index/packages\n'}
+[13.405407] (yolo) StdoutLine: {'line': b'copying resource/yolo -> /home/ubuntu/ros/src/install/yolo/share/ament_index/resource_index/packages\n'}
+[13.405971] (yolo) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros/src/install/yolo/share/yolo\n'}
+[13.406494] (yolo) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.416157] (yolo) StdoutLine: {'line': b'Copying ../build/yolo/yolo.egg-info to /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info\n'}
+[13.421771] (yolo) StdoutLine: {'line': b'running install_scripts\n'}
+[13.482365] (-) TimerEvent: {}
+[13.540422] (car_camera) StdoutLine: {'line': b'Installing car_camera script to /home/ubuntu/ros/src/install/car_camera/lib/car_camera\n'}
+[13.541649] (car_camera) StdoutLine: {'line': b'Installing car_camera_sub script to /home/ubuntu/ros/src/install/car_camera/lib/car_camera\n'}
+[13.543613] (car_camera) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros/src/build/car_camera/install.log'\n"}
+[13.571859] (yolo) StdoutLine: {'line': b'Installing yolo script to /home/ubuntu/ros/src/install/yolo/lib/yolo\n'}
+[13.575928] (yolo) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros/src/build/yolo/install.log'\n"}
+[13.582717] (-) TimerEvent: {}
+[13.684175] (-) TimerEvent: {}
+[13.785714] (-) TimerEvent: {}
+[13.793130] (car_camera) CommandEnded: {'returncode': 0}
+[13.887288] (-) TimerEvent: {}
+[13.914677] (car_camera) JobEnded: {'identifier': 'car_camera', 'rc': 0}
+[13.936197] (yolo) CommandEnded: {'returncode': 0}
+[13.988340] (-) TimerEvent: {}
+[14.003243] (yolo) JobEnded: {'identifier': 'yolo', 'rc': 0}
+[14.005416] (-) EventReactorShutdown: {}

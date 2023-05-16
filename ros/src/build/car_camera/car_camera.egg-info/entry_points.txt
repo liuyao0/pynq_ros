@@ -1,0 +1,4 @@
+[console_scripts]
+car_camera = car_camera.car_camera:main
+car_camera_sub = car_camera.car_camera_sub:main
+

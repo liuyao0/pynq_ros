@@ -1,0 +1,45 @@
+[11.329s] Invoking command in '/home/ubuntu/ros/src/yolo': PS1=(pynq-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/ros/src/build/yolo/prefix_override:/home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/python3 setup.py egg_info --egg-base ../build/yolo build --build-base /home/ubuntu/ros/src/build/yolo/build install --record /home/ubuntu/ros/src/build/yolo/install.log --single-version-externally-managed
+[13.198s] running egg_info
+[13.201s] creating ../build/yolo/yolo.egg-info
+[13.203s] writing ../build/yolo/yolo.egg-info/PKG-INFO
+[13.206s] writing dependency_links to ../build/yolo/yolo.egg-info/dependency_links.txt
+[13.208s] writing entry points to ../build/yolo/yolo.egg-info/entry_points.txt
+[13.209s] writing requirements to ../build/yolo/yolo.egg-info/requires.txt
+[13.211s] writing top-level names to ../build/yolo/yolo.egg-info/top_level.txt
+[13.213s] writing manifest file '../build/yolo/yolo.egg-info/SOURCES.txt'
+[13.231s] reading manifest file '../build/yolo/yolo.egg-info/SOURCES.txt'
+[13.236s] writing manifest file '../build/yolo/yolo.egg-info/SOURCES.txt'
+[13.239s] running build
+[13.240s] running build_py
+[13.241s] creating /home/ubuntu/ros/src/build/yolo/build
+[13.242s] creating /home/ubuntu/ros/src/build/yolo/build/lib
+[13.243s] creating /home/ubuntu/ros/src/build/yolo/build/lib/yolo
+[13.244s] copying yolo/yolo_evaluate.py -> /home/ubuntu/ros/src/build/yolo/build/lib/yolo
+[13.247s] copying yolo/utils.py -> /home/ubuntu/ros/src/build/yolo/build/lib/yolo
+[13.248s] copying yolo/__init__.py -> /home/ubuntu/ros/src/build/yolo/build/lib/yolo
+[13.250s] copying yolo/yolo.py -> /home/ubuntu/ros/src/build/yolo/build/lib/yolo
+[13.252s] running install
+[13.253s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.254s]   warnings.warn(
+[13.256s] running install_lib
+[13.261s] creating /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo
+[13.264s] copying /home/ubuntu/ros/src/build/yolo/build/lib/yolo/yolo_evaluate.py -> /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo
+[13.268s] copying /home/ubuntu/ros/src/build/yolo/build/lib/yolo/utils.py -> /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo
+[13.269s] copying /home/ubuntu/ros/src/build/yolo/build/lib/yolo/__init__.py -> /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo
+[13.271s] copying /home/ubuntu/ros/src/build/yolo/build/lib/yolo/yolo.py -> /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo
+[13.274s] byte-compiling /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo/yolo_evaluate.py to yolo_evaluate.cpython-310.pyc
+[13.276s] byte-compiling /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo/utils.py to utils.cpython-310.pyc
+[13.278s] byte-compiling /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo/__init__.py to __init__.cpython-310.pyc
+[13.279s] byte-compiling /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo/yolo.py to yolo.cpython-310.pyc
+[13.280s] running install_data
+[13.283s] creating /home/ubuntu/ros/src/install/yolo/share/ament_index
+[13.284s] creating /home/ubuntu/ros/src/install/yolo/share/ament_index/resource_index
+[13.284s] creating /home/ubuntu/ros/src/install/yolo/share/ament_index/resource_index/packages
+[13.285s] copying resource/yolo -> /home/ubuntu/ros/src/install/yolo/share/ament_index/resource_index/packages
+[13.286s] copying package.xml -> /home/ubuntu/ros/src/install/yolo/share/yolo
+[13.286s] running install_egg_info
+[13.296s] Copying ../build/yolo/yolo.egg-info to /home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info
+[13.302s] running install_scripts
+[13.452s] Installing yolo script to /home/ubuntu/ros/src/install/yolo/lib/yolo
+[13.456s] writing list of installed files to '/home/ubuntu/ros/src/build/yolo/install.log'
+[13.816s] Invoked command in '/home/ubuntu/ros/src/yolo' returned '0': PS1=(pynq-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/ros/src/build/yolo/prefix_override:/home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/python3 setup.py egg_info --egg-base ../build/yolo build --build-base /home/ubuntu/ros/src/build/yolo/build install --record /home/ubuntu/ros/src/build/yolo/install.log --single-version-externally-managed

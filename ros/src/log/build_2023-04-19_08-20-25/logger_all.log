@@ -1,0 +1,164 @@
+[2.772s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.773s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffae9abdc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaeb30ee0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaeb30ee0>>)
+[3.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.070s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.070s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros/src'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.249s] Level 1:colcon.colcon_core.package_identification:_identify(car_camera) by extensions ['ignore', 'ignore_ament_install']
+[3.249s] Level 1:colcon.colcon_core.package_identification:_identify(car_camera) by extension 'ignore'
+[3.250s] Level 1:colcon.colcon_core.package_identification:_identify(car_camera) by extension 'ignore_ament_install'
+[3.250s] Level 1:colcon.colcon_core.package_identification:_identify(car_camera) by extensions ['colcon_pkg']
+[3.250s] Level 1:colcon.colcon_core.package_identification:_identify(car_camera) by extension 'colcon_pkg'
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(car_camera) by extensions ['colcon_meta']
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(car_camera) by extension 'colcon_meta'
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(car_camera) by extensions ['ros']
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(car_camera) by extension 'ros'
+[3.275s] DEBUG:colcon.colcon_core.package_identification:Package 'car_camera' with type 'ros.ament_python' and name 'car_camera'
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.278s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.279s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.279s] Level 1:colcon.colcon_core.package_identification:_identify(yolo) by extensions ['ignore', 'ignore_ament_install']
+[3.280s] Level 1:colcon.colcon_core.package_identification:_identify(yolo) by extension 'ignore'
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(yolo) by extension 'ignore_ament_install'
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(yolo) by extensions ['colcon_pkg']
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(yolo) by extension 'colcon_pkg'
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(yolo) by extensions ['colcon_meta']
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(yolo) by extension 'colcon_meta'
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(yolo) by extensions ['ros']
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(yolo) by extension 'ros'
+[3.296s] DEBUG:colcon.colcon_core.package_identification:Package 'yolo' with type 'ros.ament_python' and name 'yolo'
+[3.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.516s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ubuntu/ros/install
+[3.531s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[3.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.012s] Level 5:colcon.colcon_core.verb:set package 'car_camera' build argument 'cmake_args' from command line to 'None'
+[4.012s] Level 5:colcon.colcon_core.verb:set package 'car_camera' build argument 'cmake_target' from command line to 'None'
+[4.012s] Level 5:colcon.colcon_core.verb:set package 'car_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.013s] Level 5:colcon.colcon_core.verb:set package 'car_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[4.013s] Level 5:colcon.colcon_core.verb:set package 'car_camera' build argument 'cmake_clean_first' from command line to 'False'
+[4.013s] Level 5:colcon.colcon_core.verb:set package 'car_camera' build argument 'cmake_force_configure' from command line to 'False'
+[4.013s] Level 5:colcon.colcon_core.verb:set package 'car_camera' build argument 'ament_cmake_args' from command line to 'None'
+[4.013s] Level 5:colcon.colcon_core.verb:set package 'car_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[4.014s] Level 5:colcon.colcon_core.verb:set package 'car_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.014s] DEBUG:colcon.colcon_core.verb:Building package 'car_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros/src/build/car_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros/src/install/car_camera', 'merge_install': False, 'path': '/home/ubuntu/ros/src/car_camera', 'symlink_install': False, 'test_result_base': None}
+[4.022s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'cmake_args' from command line to 'None'
+[4.022s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'cmake_target' from command line to 'None'
+[4.022s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.023s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'cmake_clean_cache' from command line to 'False'
+[4.023s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'cmake_clean_first' from command line to 'False'
+[4.023s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'cmake_force_configure' from command line to 'False'
+[4.023s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'ament_cmake_args' from command line to 'None'
+[4.023s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'catkin_cmake_args' from command line to 'None'
+[4.024s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.024s] DEBUG:colcon.colcon_core.verb:Building package 'yolo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros/src/build/yolo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros/src/install/yolo', 'merge_install': False, 'path': '/home/ubuntu/ros/src/yolo', 'symlink_install': False, 'test_result_base': None}
+[4.029s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.055s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros/src/car_camera' with build type 'ament_python'
+[4.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_camera', 'ament_prefix_path')
+[4.099s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros/src/install/car_camera/share/car_camera/hook/ament_prefix_path.ps1'
+[4.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros/src/install/car_camera/share/car_camera/hook/ament_prefix_path.dsv'
+[4.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros/src/install/car_camera/share/car_camera/hook/ament_prefix_path.sh'
+[4.134s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.172s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros/src/yolo' with build type 'ament_python'
+[4.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo', 'ament_prefix_path')
+[4.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros/src/install/yolo/share/yolo/hook/ament_prefix_path.ps1'
+[4.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros/src/install/yolo/share/yolo/hook/ament_prefix_path.dsv'
+[4.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros/src/install/yolo/share/yolo/hook/ament_prefix_path.sh'
+[4.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.185s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros/src/car_camera'
+[6.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.291s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros/src/yolo'
+[8.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros/src/car_camera': PS1=(pynq-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/ros/src/build/car_camera/prefix_override:/home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/python3 setup.py egg_info --egg-base ../build/car_camera build --build-base /home/ubuntu/ros/src/build/car_camera/build install --record /home/ubuntu/ros/src/build/car_camera/install.log --single-version-externally-managed
+[15.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros/src/yolo': PS1=(pynq-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/ros/src/build/yolo/prefix_override:/home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/python3 setup.py egg_info --egg-base ../build/yolo build --build-base /home/ubuntu/ros/src/build/yolo/build install --record /home/ubuntu/ros/src/build/yolo/install.log --single-version-externally-managed
+[17.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros/src/car_camera' returned '0': PS1=(pynq-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/ros/src/build/car_camera/prefix_override:/home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/python3 setup.py egg_info --egg-base ../build/car_camera build --build-base /home/ubuntu/ros/src/build/car_camera/build install --record /home/ubuntu/ros/src/build/car_camera/install.log --single-version-externally-managed
+[17.891s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/car_camera' for CMake module files
+[17.894s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/car_camera' for CMake config files
+[17.898s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/car_camera/lib'
+[17.900s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/car_camera/bin'
+[17.901s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/car_camera/lib/pkgconfig/car_camera.pc'
+[17.902s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages'
+[17.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_camera', 'pythonpath')
+[17.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros/src/install/car_camera/share/car_camera/hook/pythonpath.ps1'
+[17.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros/src/install/car_camera/share/car_camera/hook/pythonpath.dsv'
+[17.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros/src/install/car_camera/share/car_camera/hook/pythonpath.sh'
+[17.922s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/car_camera/bin'
+[17.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_camera)
+[17.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros/src/install/car_camera/share/car_camera/package.ps1'
+[17.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros/src/install/car_camera/share/car_camera/package.dsv'
+[17.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros/src/install/car_camera/share/car_camera/package.sh'
+[17.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros/src/install/car_camera/share/car_camera/package.bash'
+[17.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros/src/install/car_camera/share/car_camera/package.zsh'
+[17.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros/src/install/car_camera/share/colcon-core/packages/car_camera)
+[17.987s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/yolo' for CMake module files
+[17.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros/src/yolo' returned '0': PS1=(pynq-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/ros/src/build/yolo/prefix_override:/home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/python3 setup.py egg_info --egg-base ../build/yolo build --build-base /home/ubuntu/ros/src/build/yolo/build install --record /home/ubuntu/ros/src/build/yolo/install.log --single-version-externally-managed
+[17.992s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/yolo' for CMake config files
+[17.995s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/yolo/lib'
+[17.996s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/yolo/bin'
+[17.996s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/yolo/lib/pkgconfig/yolo.pc'
+[17.998s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/yolo/lib/python3.10/site-packages'
+[17.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo', 'pythonpath')
+[18.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros/src/install/yolo/share/yolo/hook/pythonpath.ps1'
+[18.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros/src/install/yolo/share/yolo/hook/pythonpath.dsv'
+[18.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros/src/install/yolo/share/yolo/hook/pythonpath.sh'
+[18.016s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros/src/install/yolo/bin'
+[18.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo)
+[18.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros/src/install/yolo/share/yolo/package.ps1'
+[18.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros/src/install/yolo/share/yolo/package.dsv'
+[18.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros/src/install/yolo/share/yolo/package.sh'
+[18.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros/src/install/yolo/share/yolo/package.bash'
+[18.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros/src/install/yolo/share/yolo/package.zsh'
+[18.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros/src/install/yolo/share/colcon-core/packages/yolo)
+[18.047s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.048s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.049s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.126s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.127s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.127s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.141s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[18.142s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros/src/install/local_setup.ps1'
+[18.166s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros/src/install/_local_setup_util_ps1.py'
+[18.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros/src/install/setup.ps1'
+[18.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros/src/install/local_setup.sh'
+[18.198s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros/src/install/_local_setup_util_sh.py'
+[18.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros/src/install/setup.sh'
+[18.214s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros/src/install/local_setup.bash'
+[18.219s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros/src/install/setup.bash'
+[18.231s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros/src/install/local_setup.zsh'
+[18.238s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros/src/install/setup.zsh'

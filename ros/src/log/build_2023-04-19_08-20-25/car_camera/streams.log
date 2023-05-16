@@ -1,0 +1,43 @@
+[11.414s] Invoking command in '/home/ubuntu/ros/src/car_camera': PS1=(pynq-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/ros/src/build/car_camera/prefix_override:/home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/python3 setup.py egg_info --egg-base ../build/car_camera build --build-base /home/ubuntu/ros/src/build/car_camera/build install --record /home/ubuntu/ros/src/build/car_camera/install.log --single-version-externally-managed
+[13.293s] running egg_info
+[13.298s] creating ../build/car_camera/car_camera.egg-info
+[13.299s] writing ../build/car_camera/car_camera.egg-info/PKG-INFO
+[13.300s] writing dependency_links to ../build/car_camera/car_camera.egg-info/dependency_links.txt
+[13.302s] writing entry points to ../build/car_camera/car_camera.egg-info/entry_points.txt
+[13.303s] writing requirements to ../build/car_camera/car_camera.egg-info/requires.txt
+[13.304s] writing top-level names to ../build/car_camera/car_camera.egg-info/top_level.txt
+[13.305s] writing manifest file '../build/car_camera/car_camera.egg-info/SOURCES.txt'
+[13.318s] reading manifest file '../build/car_camera/car_camera.egg-info/SOURCES.txt'
+[13.328s] writing manifest file '../build/car_camera/car_camera.egg-info/SOURCES.txt'
+[13.329s] running build
+[13.330s] running build_py
+[13.331s] creating /home/ubuntu/ros/src/build/car_camera/build
+[13.332s] creating /home/ubuntu/ros/src/build/car_camera/build/lib
+[13.333s] creating /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera
+[13.334s] copying car_camera/car_camera_sub.py -> /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera
+[13.335s] copying car_camera/car_camera.py -> /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera
+[13.336s] copying car_camera/__init__.py -> /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera
+[13.337s] running install
+[13.339s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.341s]   warnings.warn(
+[13.343s] running install_lib
+[13.346s] creating /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera
+[13.348s] copying /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera/car_camera_sub.py -> /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera
+[13.349s] copying /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera/car_camera.py -> /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera
+[13.352s] copying /home/ubuntu/ros/src/build/car_camera/build/lib/car_camera/__init__.py -> /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera
+[13.359s] byte-compiling /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera/car_camera_sub.py to car_camera_sub.cpython-310.pyc
+[13.363s] byte-compiling /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera/car_camera.py to car_camera.cpython-310.pyc
+[13.364s] byte-compiling /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera/__init__.py to __init__.cpython-310.pyc
+[13.369s] running install_data
+[13.371s] creating /home/ubuntu/ros/src/install/car_camera/share/ament_index
+[13.379s] creating /home/ubuntu/ros/src/install/car_camera/share/ament_index/resource_index
+[13.380s] creating /home/ubuntu/ros/src/install/car_camera/share/ament_index/resource_index/packages
+[13.381s] copying resource/car_camera -> /home/ubuntu/ros/src/install/car_camera/share/ament_index/resource_index/packages
+[13.384s] copying package.xml -> /home/ubuntu/ros/src/install/car_camera/share/car_camera
+[13.386s] running install_egg_info
+[13.388s] Copying ../build/car_camera/car_camera.egg-info to /home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages/car_camera-0.0.0-py3.10.egg-info
+[13.390s] running install_scripts
+[13.534s] Installing car_camera script to /home/ubuntu/ros/src/install/car_camera/lib/car_camera
+[13.535s] Installing car_camera_sub script to /home/ubuntu/ros/src/install/car_camera/lib/car_camera
+[13.537s] writing list of installed files to '/home/ubuntu/ros/src/build/car_camera/install.log'
+[13.788s] Invoked command in '/home/ubuntu/ros/src/car_camera' returned '0': PS1=(pynq-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/ros/src/build/car_camera/prefix_override:/home/ubuntu/ros/src/install/car_camera/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/python3 setup.py egg_info --egg-base ../build/car_camera build --build-base /home/ubuntu/ros/src/build/car_camera/build install --record /home/ubuntu/ros/src/build/car_camera/install.log --single-version-externally-managed
